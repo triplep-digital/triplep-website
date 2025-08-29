@@ -1,0 +1,935 @@
+{{!< default}}
+
+{{#contentFor "wf-page"}}68a0ce89c6476b52f110b710{{/contentFor}}
+{{#contentFor "wf-site"}}689f3928b5dee013c4afd942{{/contentFor}}
+{{#contentFor "wf-classes"}}{{/contentFor}}
+{{#contentFor "wf-head"}}<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="{{asset "css/normalize.css"}}" rel="stylesheet" type="text/css">
+<link href="{{asset "css/webflow.css"}}" rel="stylesheet" type="text/css">
+<link href="{{asset "css/triplepdigital.webflow.css"}}" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+<script type="text/javascript">WebFont.load({
+google: {
+families: ["Exo 2:regular,600,700,800,900","Poppins:300,regular,600,700,800"]
+}});</script>
+<script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+{{#unless @site.icon}}<link href="{{asset "images/favicon.png"}}" rel="shortcut icon" type="image/x-icon">{{/unless}}
+{{#unless @site.icon}}<link href="{{asset "images/webclip.png"}}" rel="apple-touch-icon">{{/unless}}<!--
+Keep this css code to improve the font quality -->
+<style>
+* {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-o-font-smoothing: antialiased;
+}
+</style>{{/contentFor}}
+
+  <div class="page-wrapper">
+    {{> "global-styles"}}
+    {{> "navbar"}}
+    <main class="main-wrapper">
+      <header class="section_header30 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="header30_content">
+              <div class="padding-section-large">
+                <div class="text-align-center">
+                  <div class="max-width-large align-center">
+                    <div class="margin-bottom margin-small">
+                      <h1 class="heading-style-h1 text-color-primary">{{t "Innovating Justice through Digital Precision"}}</h1>
+                    </div>
+                    <p class="text-size-medium text-color-primary">{{t "TwinVerse Digital empowers law enforcement and forensic experts with advanced digital twin technology to solve crimes more effectively, providing unparalleled accuracy, collaboration, and insight."}}<br></p>
+                    <div class="margin-top margin-medium">
+                      <div class="button-group is-center">
+                        <a href="#" class="button-4 is-alternate w-button">{{t "Contact Us"}}</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header30_background-image-wrapper">
+          <div class="image-overlay-layer"></div><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/law-and-order-p-500.jpg"}} 500w, {{asset "images/law-and-order-p-800.jpg"}} 800w, {{asset "images/law-and-order.jpg"}} 1024w" alt="" src="{{asset "images/law-and-order.jpg"}}" loading="eager" class="header30_background-image">
+        </div>
+      </header>
+      <section class="section_digital-twin-cities_features color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_features_component">
+                <div class="w-layout-grid digital-twin-cities_features_content">
+                  <div class="digital-twin-cities_features_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/law-order-introduction-p-500.webp"}} 500w, {{asset "images/law-order-introduction-p-800.webp"}} 800w, {{asset "images/law-order-introduction.webp"}} 1024w" alt="" src="{{asset "images/law-order-introduction.webp"}}" loading="lazy" class="digital-twin-cities_features_image"></div>
+                  <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c8176-f110b710" class="digital-twin-cities_features_content-right">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h3">{{t "Law & Order"}}</h2>
+                    </div>
+                    <div class="margin-bottom">
+                      <p class="text-size-medium">{{t "Leverage "}}<strong>{{t "Digital Twin Cities"}}</strong>{{t " to revolutionise public safety, crime prevention, and emergency response. By creating real-time, data-driven simulations of urban environments, law enforcement and public safety organizations can enhance situational awareness, optimize resource deployment, and plan proactive measures. TwinVerse Digital’s solutions empower agencies with cutting-edge tools to improve safety, collaboration, and decision-making, ensuring more secure and resilient communities."}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_digital-twin-cities_features-list color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_features-list_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Law & Order"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "Challenges Facing Law & Order Today"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Explore the pressing challenges facing law and order today, from resource inefficiencies to the need for real-time data integration, and discover how innovative solutions are transforming public safety and emergency response."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid digital-twin-cities_features-list_grid-list">
+                  <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c8191-f110b710" class="w-layout-grid digital-twin-cities_features-list_row">
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c8193-f110b710" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/law-order-challenge-1-p-500.webp"}} 500w, {{asset "images/law-order-challenge-1-p-800.webp"}} 800w, {{asset "images/law-order-challenge-1.webp"}} 1024w" alt="" src="{{asset "images/law-order-challenge-1.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Inefficient Crime Scene Investigation"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Traditional crime scene investigation methods are often limited by physical constraints, time-consuming processes, and the potential for human error. Collecting and analysing evidence at a physical crime scene can be challenging and may not always provide a complete picture."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c819e-f110b710" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/law-order-challenge-2-p-500.webp"}} 500w, {{asset "images/law-order-challenge-2-p-800.webp"}} 800w, {{asset "images/law-order-challenge-2.webp"}} 1024w" alt="" src="{{asset "images/law-order-challenge-2.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Lack of Real-Time Collaboration"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Crime scene investigations typically require collaboration among multiple agencies and experts. Traditional methods of collaboration are often slow and inefficient, involving physical meetings and the transfer of physical evidence."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c81a9-f110b710" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/law-order-challenge-3-p-500.webp"}} 500w, {{asset "images/law-order-challenge-3-p-800.webp"}} 800w, {{asset "images/law-order-challenge-3.webp"}} 1024w" alt="" src="{{asset "images/law-order-challenge-3.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "High Costs of Investigation"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "The costs associated with traditional crime scene investigation methods can be significant, including travel expenses, forensic analysis, and personnel costs. These financial constraints can limit the scope and effectiveness of investigations."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c81b4-f110b710" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/law-order-challenge-4-p-500.webp"}} 500w, {{asset "images/law-order-challenge-4-p-800.webp"}} 800w, {{asset "images/law-order-challenge-4.webp"}} 1024w" alt="" src="{{asset "images/law-order-challenge-4.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Training and Skill Development"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Training law enforcement personnel in crime scene investigation techniques is often limited by the availability of realistic training environments and scenarios. Traditional training methods may not provide the hands-on experience needed for effective learning."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c81bf-f110b710" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/law-order-challenge-5-p-500.webp"}} 500w, {{asset "images/law-order-challenge-5-p-800.webp"}} 800w, {{asset "images/law-order-challenge-5.webp"}} 1024w" alt="" src="{{asset "images/law-order-challenge-5.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Complexity of Digital Evidence"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "The growing prevalence of digital evidence, such as data from smartphones, computers, and other digital devices, adds complexity to crime scene investigations. Analysing and interpreting digital evidence requires specialised skills and tools."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c81ca-f110b710" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/law-order-challenge-6-p-500.webp"}} 500w, {{asset "images/law-order-challenge-6-p-800.webp"}} 800w, {{asset "images/law-order-challenge-6.webp"}} 1024w" alt="" src="{{asset "images/law-order-challenge-6.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Limited Public Engagement and Trust"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Public cooperation and trust are crucial for effective crime solving. Traditional methods of engaging with the community and building trust are often limited and may not fully leverage modern technology and communication channels."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout253 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout253_component">
+                <div class="w-layout-grid layout253_content">
+                  <div class="layout253_content-left">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-style-tagline">{{t "Law & Order"}}</div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h2">{{t "How Twinverse Digital solves Law & Order's Challenges"}}</h2>
+                    </div>
+                    <p class="text-size-medium">{{t "Learn how TwinVerse Digital revolutionises law and order by leveraging Digital Twin technology, immersive solutions, and AI-driven tools to enhance investigations, foster public trust, and streamline collaboration."}}</p>
+                  </div>
+                  <div class="w-layout-grid layout253_list">
+                    <div class="layout253_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout253_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a95f7245ba077c7dc0d52_hammer-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Accurate Crime Scene Reconstruction"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Create highly detailed and accurate 3D models of crime scenes using data from various sources such as photos, videos, and forensic reports. This involves integrating laser scans, photogrammetry, and other advanced imaging techniques."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout253_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout253_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6779b329458ca4e6bb3a4642_handshake-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Real-Time Collaboration"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Develop a virtual collaboration platform that allows law enforcement agencies, forensic experts, and legal professionals to examine the crime scene together in real-time, regardless of their physical location. Features include virtual walk-throughs, annotation tools, and shared data access."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout253_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout253_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a968d21d40497cbf89e9e_magnifying-glass-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Interactive Evidence Analysis"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Integrate tools for interactive analysis of evidence within the virtual crime scene. This includes measuring distances, recreating lines of sight, testing hypotheses about the events, and simulating different scenarios."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout253_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout253_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6775bfd1906cb8affffe49f7_chart-line-solid-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Virtual Reality Training for Investigators"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Develop VR training modules that simulate crime scenes for training purposes. These modules can recreate various types of crime scenes and scenarios, providing investigators with hands-on experience in a controlled environment."}}<br></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-top margin-medium">
+                <div class="layout233_component">
+                  <div class="w-layout-grid layout233_list">
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a9758484fcc98351daf20_gavel-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Courtroom Presentations"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Create interactive and visually compelling presentations for use in courtrooms. These presentations can include virtual reconstructions of the crime scene, interactive timelines, and visualisations of evidence and witness statements."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a968d21d40497cbf89e9e_magnifying-glass-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Cold Case Investigations"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Use digital twin technology to revisit and analyse cold cases. By reconstructing old crime scenes and applying modern forensic techniques within the virtual environment, investigators can uncover new insights and leads."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a9972484fcc98351f901b_chess-board-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Crime Pattern Analysis"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Integrate crime scene reconstructions with data analytics tools to identify patterns and correlations across multiple cases. This can involve spatial analysis, temporal analysis, and linking evidence across different crime scenes."}}<br></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-top margin-medium">
+                <div class="layout233_component">
+                  <div class="w-layout-grid layout233_list">
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785d7d4fb6885cd72e5daa_user-graduate-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Public Awareness and Education"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Develop virtual reconstructions of notable crime cases for public awareness campaigns and educational purposes. These reconstructions can be used in training programs, public service announcements, and community outreach initiatives."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a9a4585b83bf287d5807c_fingerprint-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Integration with Forensic Technologies"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Integrate digital crime scene reconstructions with other forensic technologies, such as DNA analysis, fingerprint matching, and ballistic analysis. This creates a comprehensive investigative platform that combines multiple sources of forensic data."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a9a9d36d2b24f90dee8ec_binoculars-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Victim and Witness Testimonies"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Use virtual reconstructions to assist victims and witnesses in recalling details of the crime scene. They can navigate through the virtual environment and identify key areas or objects relevant to their testimony."}}</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout505 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout505_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Law & Order"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h3">{{t "Why Choose TwinVerse Digital For Law & Order"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "TwinVerse Digital offers a multitude of benefits for assisting in crime solving by providing accurate crime scene reconstructions, enhancing evidence analysis, facilitating remote collaboration, and improving training and courtroom presentations. By leveraging advanced digital twin technology, TwinVerse Digital helps law enforcement agencies and forensic experts solve crimes more effectively and efficiently, ultimately contributing to a safer and more just society."}}<br></p>
+                    </div>
+                  </div>
+                </div>
+                <div data-duration-in="400" data-duration-out="200" data-current="Tab 1" data-easing="ease" class="layout505_tabs w-tabs">
+                  <div id="w-node-_5c8b87db-bdd6-e350-e3af-bc8bf87c8272-f110b710" class="layout505_tabs-menu w-tab-menu">
+                    <a data-w-tab="Tab 1" class="layout505_tab-link w-inline-block w-tab-link w--current">
+                      <h3 class="heading-style-h5">{{t "Crime Scene Reconstruction"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 2" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Evidence Analysis"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 3" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Traning & Simulation"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 4" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Historical Preservation"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 5" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Visitor Engagement"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 6" class="layout505_tab-link tab-last w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Cost Efficiency"}}</h3>
+                    </a>
+                  </div>
+                  <div class="layout505_tabs-content w-tab-content">
+                    <div data-w-tab="Tab 1" class="layout505_tab-pane w-tab-pane w--tab-active">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a95f7245ba077c7dc0d52_hammer-solid.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Accurate Crime Scene Reconstruction"}}<br></a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Enabling precise digital reconstructions of crime scenes using data from various sources such as photos, videos, and forensic reports. This creates a highly accurate and detailed virtual representation of the scene."}}<br></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 2" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a968d21d40497cbf89e9e_magnifying-glass-solid.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Enhanced Evidence Analysis"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Digital twin cities can significantly reduce production costs by eliminating the need for physical sets and locations. Productions can be filmed entirely within virtual environments."}}<br></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 3" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785d7d4fb6885cd72e5daa_user-graduate-light.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Training and Simulation"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Create training modules and simulations for law enforcement personnel. Officers can practice crime scene investigation techniques and decision-making in a realistic yet controlled environment."}}<br></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 4" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6775bfd072f981235e35a181_people-group-solid-light.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Remote Collaboration"}}<br></a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Supporting real-time collaboration among law enforcement agencies, forensic experts, and legal professionals, regardless of their physical location. Participants can virtually enter the crime scene and discuss findings together."}}<br></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 5" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/677a9758484fcc98351daf20_gavel-solid.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Courtroom Presentations"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Digital reconstructions can be presented in court to provide a clear and compelling visual representation of the crime scene. Interactive features allow jurors to explore the scene and understand the spatial relationships and dynamics of the events."}}<br></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 6" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6773d03f3013e060f08cbc29_piggy-bank-solid.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Cost and Resource Efficiency"}}<br></a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Virtual crime scene reconstructions can reduce the need for physical re-enactments and on-site investigations, saving time and resources."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout358 color-scheme-tvd">
+        <div class="padding-global background-color-secondary">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout358_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Law & Order"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "Law & Order Use Cases"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Below are some hypothetical use cases where TwinVerse Digital’s solutions can provide benefit to the Law & Order."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid layout358_grid-list">
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Crime Scene Reconstruction and Investigation"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Law enforcement agencies struggle to accurately reconstruct complex crime scenes for investigative purposes and courtroom presentations."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Using Digital Twin Cities, police departments create highly detailed 3D reconstructions of crime scenes, including precise measurements, environmental factors, and interactive elements."}}</li>
+                            <li>{{t "Investigators can explore the reconstructed scene in an immersive virtual environment, allowing them to walk through the scene, analyse evidence, and test theories."}}</li>
+                            <li>{{t "AI-powered analysis tools highlight key areas of interest, such as blood spatter patterns, bullet trajectories, or evidence locations, helping investigators piece together the sequence of events."}}</li>
+                            <li>{{t "The use of these reconstructions results in a 20% increase in case closure rates, as investigators can identify crucial details that may have been missed during the initial investigation."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-1-scene-p-500.jpg"}} 500w, {{asset "images/uc-law-1-scene-p-800.jpg"}} 800w, {{asset "images/uc-law-1-scene.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-1-scene.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Real-Time Surveillance and Predictive Policing"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "City law enforcement faces difficulties monitoring crime hotspots and predicting where incidents are most likely to occur."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Police departments use Digital Twin Cities to create real-time virtual models of urban areas, integrating data from surveillance cameras, traffic sensors, and 911 call logs to monitor crime trends."}}</li>
+                            <li>{{t "AI-powered predictive analytics analyse this data to forecast where crimes are most likely to occur based on historical patterns, weather conditions, and crowd activity."}}</li>
+                            <li>{{t "Officers are deployed more efficiently based on these predictions, focusing on areas with higher risk, while AI-driven virtual dashboards offer real-time updates on developing situations."}}</li>
+                            <li>{{t "This proactive approach leads to a 15% reduction in crime rates, as law enforcement can prevent incidents before they escalate."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-2-hotspot-p-500.jpg"}} 500w, {{asset "images/uc-law-2-hotspot-p-800.jpg"}} 800w, {{asset "images/uc-law-2-hotspot.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-2-hotspot.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "VIRTUAL COURTROOM PRESENTATIONS"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Prosecutors often struggle to effectively present complex cases and evidence in court, leading to confusion among jurors and delays in the judicial process."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Prosecutors use Digital Twin Cities to create virtual crime scene reconstructions, interactive maps, and animated recreations of events for courtroom presentations."}}</li>
+                            <li>{{t "Immersive visualisations allow jurors to view the crime scene in 3D, walking through the events in real time and seeing evidence in its original context."}}</li>
+                            <li>{{t "AI-powered characters simulate witness testimonies or reenact the sequence of events based on collected evidence, making it easier for jurors to understand key details of the case."}}</li>
+                            <li>{{t "These virtual presentations increase juror comprehension and engagement, leading to faster deliberations and more accurate verdicts, reducing trial time by 30%."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-3-court-p-500.jpg"}} 500w, {{asset "images/uc-law-3-court-p-800.jpg"}} 800w, {{asset "images/uc-law-3-court.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-3-court.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Training for Law Enforcement Officers"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Law enforcement agencies face challenges in providing realistic, hands-on training for officers, especially in high-pressure scenarios like active shooter situations or hostage negotiations."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Police academies use Immersive Metaverses to create highly realistic training simulations, allowing officers to practice responding to various crime scenarios in a safe, controlled virtual environment."}}</li>
+                            <li>{{t "AI-powered characters act as civilians, suspects, or fellow officers, providing realistic interactions and decision-making challenges for trainees."}}</li>
+                            <li>{{t "Officers can practice de-escalation techniques, tactical responses, and crisis negotiation skills in simulations that adapt to their decisions in real-time."}}</li>
+                            <li>{{t "This immersive training results in a 25% improvement in officer readiness and decision-making under pressure, reducing mistakes in real-world situations."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-4-training-p-500.jpg"}} 500w, {{asset "images/uc-law-4-training-p-800.jpg"}} 800w, {{asset "images/uc-law-4-training.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-4-training.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Missing Person Search and Rescue Operations"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Search and rescue teams struggle to efficiently coordinate efforts across large urban areas when searching for missing persons, especially in densely populated cities."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Using Digital Twin Cities, law enforcement agencies create real-time models of cities, integrating data from cell phone towers, surveillance cameras, and GPS devices to track potential locations of missing persons."}}</li>
+                            <li>{{t "AI-driven analysis tools analyse patterns in movement, such as where the individual was last seen or where crowds are gathering, to provide probable search areas."}}</li>
+                            <li>{{t "Immersive simulations allow search teams to plan their routes, predict obstacles, and deploy resources like drones or K9 units more effectively."}}</li>
+                            <li>{{t "This coordinated approach reduces search times by 30%, increasing the likelihood of successful rescues in time-sensitive cases."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-5-search-rescue-p-500.jpg"}} 500w, {{asset "images/uc-law-5-search-rescue-p-800.jpg"}} 800w, {{asset "images/uc-law-5-search-rescue.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-5-search-rescue.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Evidence Management and Analysis"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Law enforcement agencies face challenges managing and analysing large volumes of digital evidence from multiple sources, such as surveillance footage, forensic data, and witness testimonies."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Using Digital Twin Cities, police departments integrate all forms of evidence into a single, interactive virtual platform where investigators can view and analyse the case in a 3D environment."}}</li>
+                            <li>{{t "AI-powered analysis tools automatically tag and categorise evidence, identifying key pieces that are most relevant to the investigation."}}</li>
+                            <li>{{t "Investigators can use immersive simulations to replay events based on the evidence, testing different scenarios and analysing the results in real time."}}</li>
+                            <li>{{t "This solution streamlines the evidence management process, reducing the time needed to analyse complex cases by 20% and improving the quality of case presentations."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-6-evidence-p-500.jpg"}} 500w, {{asset "images/uc-law-6-evidence-p-800.jpg"}} 800w, {{asset "images/uc-law-6-evidence.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-6-evidence.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Virtual Crime Prevention Programs"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Cities struggle to engage citizens in crime prevention efforts and provide effective education on personal safety and crime reporting."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Using Immersive Metaverses, law enforcement agencies create virtual crime prevention workshops that citizens can attend from their homes or local community centres."}}</li>
+                            <li>{{t "Conversational AI Characters serve as virtual instructors, teaching participants how to identify suspicious activities, protect their property, and report crimes effectively."}}</li>
+                            <li>{{t "Citizens can walk through virtual scenarios, such as home burglaries or public safety incidents, to practice responding to potential threats and improve their awareness."}}</li>
+                            <li>{{t "This approach increases community engagement in crime prevention programs by 30%, resulting in more effective citizen reporting and a greater sense of safety in the community."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-7-prevention-p-500.jpg"}} 500w, {{asset "images/uc-law-7-prevention-p-800.jpg"}} 800w, {{asset "images/uc-law-7-prevention.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-7-prevention.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4"><strong>{{t "Urban Security Planning for Major Events"}}</strong><br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Law enforcement agencies face challenges in securing large public events like parades, concerts, or political rallies, which require extensive coordination and planning."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Using Digital Twin Cities, security teams can create a virtual model of the event location, simulating the flow of crowds, traffic, and emergency response routes."}}</li>
+                            <li>{{t "AI-powered predictive tools analyse past events to predict potential risks, such as overcrowding or traffic bottlenecks, and recommend optimal placement of security personnel and emergency services."}}</li>
+                            <li>{{t "In the Immersive Metaverse, law enforcement teams can conduct virtual training exercises, practicing their response to different scenarios, such as evacuations or security breaches."}}</li>
+                            <li>{{t "This proactive approach to urban security reduces incidents by 20%, ensuring a safer event for participants and smoother coordination among security teams."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-8-sec-plan-p-500.jpg"}} 500w, {{asset "images/uc-law-8-sec-plan-p-800.jpg"}} 800w, {{asset "images/uc-law-8-sec-plan.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-8-sec-plan.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "AI-Driven Crowd Control and Public Safety"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "During large gatherings, such as protests or sporting events, law enforcement struggles to manage crowds and prevent conflicts without escalating tensions."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Using Digital Twin Cities, police departments monitor real-time data on crowd movement, density, and behaviour using drones, cameras, and social media feeds."}}</li>
+                            <li>{{t "AI-powered predictive analysis forecasts potential hotspots for conflict or unrest, allowing officers to deploy resources more effectively and defuse situations before they escalate."}}</li>
+                            <li>{{t "Officers on the ground receive real-time updates via their mobile devices or VR headsets, allowing them to make informed decisions based on current crowd behaviour."}}</li>
+                            <li>{{t "This system results in a 15% reduction in crowd-related incidents and improves overall public safety during large events."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-9-crowd-p-500.jpg"}} 500w, {{asset "images/uc-law-9-crowd-p-800.jpg"}} 800w, {{asset "images/uc-law-9-crowd.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-9-crowd.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Predictive Analytics for Crime Prevention"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Law enforcement agencies are reactive rather than proactive in addressing crime, leading to higher crime rates in certain neighbourhoods."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Police departments use AI-driven predictive analytics within Digital Twin Cities to analyse historical crime data and identify patterns of criminal behaviour."}}</li>
+                            <li>{{t "The system generates real-time alerts for areas at risk of crime, allowing law enforcement to allocate resources to high-risk locations before incidents occur."}}</li>
+                            <li>{{t "The AI-powered system also provides recommendations on urban improvements, such as increasing street lighting or optimising patrol routes, to reduce the likelihood of future crime."}}</li>
+                            <li>{{t "As a result, crime rates in targeted areas drop by 20%, and law enforcement agencies can take a more proactive approach to community safety."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-law-10-proactive-p-500.jpg"}} 500w, {{asset "images/uc-law-10-proactive-p-800.jpg"}} 800w, {{asset "images/uc-law-10-proactive.jpg"}} 1024w" alt="" src="{{asset "images/uc-law-10-proactive.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_digital-twin-cities_faq color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_faq_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "FAQs"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Find answers to your most pressing questions about Law & Order."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid digital-twin-cities_faq_content">
+                  <div class="w-layout-grid digital-twin-cities_faq_list">
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c8420" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can Digital Twin Cities assist in crime scene reconstruction?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital’s Digital Twin Cities can create detailed, virtual reconstructions of crime scenes based on real-world data, allowing investigators to analyse the scene from multiple perspectives, test hypotheses, and simulate crime events. This helps improve accuracy and decision-making during investigations."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c842b" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can TwinVerse Digital improve emergency response times?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital’s real-time monitoring and AI-powered route optimisation help emergency services navigate through traffic congestion and identify the fastest routes to an incident. The platform’s integration of live traffic and environmental data improves response times and resource deployment during emergencies."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c8436" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can TwinVerse Digital’s solutions be used for surveillance and monitoring?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Yes, TwinVerse Digital’s platform integrates real-time surveillance data from cameras and sensors across the city. The system uses AI to monitor public spaces for unusual activities, provide alerts to law enforcement, and help analyse footage for ongoing investigations."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c8441" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How does TwinVerse Digital support collaboration between law enforcement and emergency services?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital’s platform enables seamless communication and collaboration between different agencies through real-time data sharing and virtual simulations. Law enforcement, fire departments, and medical teams can coordinate responses more effectively in emergencies or large-scale public events."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c844c" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can TwinVerse Digital enhance courtroom presentations and legal processes?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Virtual crime scene reconstructions and AI-powered simulations can be used in courtrooms to present detailed visual evidence, making it easier for juries to understand complex cases. TwinVerse Digital’s platform enables attorneys and law enforcement to build stronger cases by visualising events in an immersive, detailed manner."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-layout-grid digital-twin-cities_faq_list">
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c8458" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can TwinVerse Digital’s solutions be used for predictive policing?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Yes, TwinVerse Digital utilises AI-driven predictive analytics to help law enforcement agencies anticipate crime hotspots, identify patterns, and deploy resources more efficiently. These insights assist in preventing crimes before they happen by providing data-based forecasts."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c8463" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How do Conversational AI Characters aid in law enforcement training?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Conversational AI Characters can simulate various real-life scenarios for law enforcement training, such as interrogations, de-escalation techniques, and witness interviews. These virtual characters provide real-time feedback, helping officers develop their communication and decision-making skills in a risk-free environment."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c846e" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can TwinVerse Digital help improve public safety in urban areas?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Through Digital Twin Cities, TwinVerse Digital provides law enforcement agencies with tools to monitor real-time data on crime, traffic incidents, and public disturbances. AI-powered analytics help identify high-risk areas, enabling police departments to improve public safety by deploying resources more strategically."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c8479" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can TwinVerse Digital’s solutions be used for case management and evidence analysis?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Yes, TwinVerse Digital provides a virtual evidence repository where investigators can store, access, and analyse data related to ongoing cases. The platform’s tools allow law enforcement to cross-reference evidence, simulate crime scenarios, and visualize case details for more thorough analysis."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="5c8b87db-bdd6-e350-e3af-bc8bf87c8484" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How does TwinVerse Digital support data privacy and security in law enforcement applications?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital ensures that all data collected and used by law enforcement agencies is secured using encryption and privacy protocols. The platform complies with data protection regulations to maintain the integrity and confidentiality of sensitive information."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> "footer"}}
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=689f3928b5dee013c4afd942" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="{{asset "js/webflow.js"}}" type="text/javascript"></script>
+
+<div data-api-key="{{@custom.content_api_key}}" id="content-api-key" style="display: none;"></div><script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script>

@@ -1,0 +1,709 @@
+{{!< default}}
+
+{{#contentFor "wf-page"}}689fc4528c7e95f8caa6d220{{/contentFor}}
+{{#contentFor "wf-site"}}689f3928b5dee013c4afd942{{/contentFor}}
+{{#contentFor "wf-classes"}}{{/contentFor}}
+{{#contentFor "wf-head"}}<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="{{asset "css/normalize.css"}}" rel="stylesheet" type="text/css">
+<link href="{{asset "css/webflow.css"}}" rel="stylesheet" type="text/css">
+<link href="{{asset "css/triplepdigital.webflow.css"}}" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+<script type="text/javascript">WebFont.load({
+google: {
+families: ["Exo 2:regular,600,700,800,900","Poppins:300,regular,600,700,800"]
+}});</script>
+<script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+{{#unless @site.icon}}<link href="{{asset "images/favicon.png"}}" rel="shortcut icon" type="image/x-icon">{{/unless}}
+{{#unless @site.icon}}<link href="{{asset "images/webclip.png"}}" rel="apple-touch-icon">{{/unless}}<!--
+Keep this css code to improve the font quality -->
+<style>
+* {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-o-font-smoothing: antialiased;
+}
+</style>{{/contentFor}}
+
+  <div class="page-wrapper">
+    {{> "global-styles"}}
+    {{> "navbar"}}
+    <main class="main-wrapper">
+      <header class="section_header5 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="header5_content">
+              <div class="padding-section-large">
+                <div class="max-width-medium">
+                  <div class="margin-vertical margin-small">
+                    <h1 class="heading-style-h1 text-color-primary">{{t "Revolutionising Urban Planning With Digital Twin Technology"}}</h1>
+                  </div>
+                  <p class="text-size-medium text-color-primary">{{t "Real-time, data-driven environments for smarter city management."}}</p>
+                  <div class="margin-top margin-medium">
+                    <div class="button-group">
+                      <a href="#" class="button-4 is-alternate w-button">{{t "Contact Us"}}</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header5_background-image-wrapper">
+          <div class="image-overlay-layer"></div><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/digital-twin-p-500.jpg"}} 500w, {{asset "images/digital-twin-p-800.jpg"}} 800w, {{asset "images/digital-twin.jpg"}} 1024w" alt="" src="{{asset "images/digital-twin.jpg"}}" loading="eager" class="header5_background-image">
+        </div>
+      </header>
+      <section class="section_digital-twin-cities_features color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_features_component">
+                <div class="w-layout-grid digital-twin-cities_features_content">
+                  <div class="digital-twin-cities_features_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/bristol-dtc-p-500.webp"}} 500w, {{asset "images/bristol-dtc-p-800.webp"}} 800w, {{asset "images/bristol-dtc.webp"}} 1024w" alt="" src="{{asset "images/bristol-dtc.webp"}}" loading="lazy" class="digital-twin-cities_features_image"></div>
+                  <div id="w-node-_17986f76-cd61-1a0c-680e-b4ce9b25073f-caa6d220" class="digital-twin-cities_features_content-right">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h3">{{t "What are Digital Twin Cities?"}}</h2>
+                    </div>
+                    <div class="margin-bottom">
+                      <p class="text-size-medium">{{t "Digital Twin Cities represent the virtual replication of urban environments, where real-time data, IoT devices, and advanced simulation technologies like AI, VR, AR, and big data analytics converge to create a dynamic, interactive digital counterpart of a physical city. This technology allows for real-time monitoring, simulation, and analysis of urban systems, enabling smarter, data- driven decision-making and more efficient city management. TwinVerse Digital’s approach to Digital Twin Cities focuses on providing tailored solutions across various industries, including urban planning, real estate, transportation, film and television, tourism and more."}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_digital-twin-cities_features-list color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_features-list_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Digital Twin Cities"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "Key Features"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Discover the transformative power of Digital Twin Cities with TwinVerse Digital, featuring "}}<strong>{{t "interactive 3D visualisations"}}</strong>{{t ", "}}<strong>{{t "real-time data integration"}}</strong>{{t ", and "}}<strong>{{t "AI-driven predictive analytics"}}</strong>{{t " to revolutionise urban planning, infrastructure management, and community engagement."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid digital-twin-cities_features-list_grid-list">
+                  <div id="w-node-_0178b6ce-02f8-ddc4-f78d-a32d507e5dee-caa6d220" class="w-layout-grid digital-twin-cities_features-list_row">
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_0178b6ce-02f8-ddc4-f78d-a32d507e5df0-caa6d220" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/interactive-3d-visual-p-500.webp"}} 500w, {{asset "images/interactive-3d-visual-p-800.webp"}} 800w, {{asset "images/interactive-3d-visual.webp"}} 1024w" alt="" src="{{asset "images/interactive-3d-visual.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Interactive 3D Visualisation"}}</h3>
+                          </div>
+                          <p>{{t "Immersive 3D models that can be explored interactively, experiencing virtual tours, fly-throughs, and street-level views of the urban landscape."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_0178b6ce-02f8-ddc4-f78d-a32d507e5dfa-caa6d220" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-tiime-data-p-500.webp"}} 500w, {{asset "images/real-tiime-data-p-800.webp"}} 800w, {{asset "images/real-tiime-data.webp"}} 1024w" alt="" src="{{asset "images/real-tiime-data.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Real-time Data Integration"}}</h3>
+                          </div>
+                          <p>{{t "Real-time data integrated from various sources such as IoT sensors, traffic cameras, weather stations, and public transportation systems. Data is continuously updated and fed in to create an accurate, live representation of the city."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_0178b6ce-02f8-ddc4-f78d-a32d507e5e04-caa6d220" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/predictive-analytics-p-500.webp"}} 500w, {{asset "images/predictive-analytics-p-800.webp"}} 800w, {{asset "images/predictive-analytics.webp"}} 1024w" alt="" src="{{asset "images/predictive-analytics.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Predictive Analytics & Simulation"}}</h3>
+                          </div>
+                          <p>{{t "AI-driven predictive analytics. can simulate and forecast various urban scenarios. Including traffic congestion, environmental impacts, infrastructure development, and emergency response plans."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_0178b6ce-02f8-ddc4-f78d-a32d507e5e0e-caa6d220" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-estate-urban-dev-p-500.webp"}} 500w, {{asset "images/real-estate-urban-dev-p-800.webp"}} 800w, {{asset "images/real-estate-urban-dev.webp"}} 1024w" alt="" src="{{asset "images/real-estate-urban-dev.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Real Estate & Urban Development"}}</h3>
+                          </div>
+                          <p>{{t "Real estate developers can visualise and plan new projects within the context of the city’s digital twin. This includes zoning analysis, infrastructure impact assessments, and market trend analytics."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_0178b6ce-02f8-ddc4-f78d-a32d507e5e18-caa6d220" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/env-monitoring-sustainability-p-500.webp"}} 500w, {{asset "images/env-monitoring-sustainability-p-800.webp"}} 800w, {{asset "images/env-monitoring-sustainability.webp"}} 1024w" alt="" src="{{asset "images/env-monitoring-sustainability.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Environmental Monitoring & Sustainability"}}</h3>
+                          </div>
+                          <p>{{t "Integrated environmental data monitoring air and water quality, noise levels, and green space usage. Simulations used to assess the impact of sustainability initiatives and urban development projects on the environment."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_0178b6ce-02f8-ddc4-f78d-a32d507e5e22-caa6d220" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/public-engagement-p-500.webp"}} 500w, {{asset "images/public-engagement-p-800.webp"}} 800w, {{asset "images/public-engagement.webp"}} 1024w" alt="" src="{{asset "images/public-engagement.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Public Engagement & Participation"}}</h3>
+                          </div>
+                          <p>{{t "Interactive platforms for the public to engage with urban planning processes. Including virtual town halls, public forums, and feedback mechanisms integrated into the digital twin environment."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout237 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout237_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Digital Twin Cities"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "How Digital Twin Cities Transform Industries"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Explore how Digital Twin Cities are reshaping industries by providing real-time data insights, predictive analytics, and interactive simulations to enhance urban planning, infrastructure management, and community engagement."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid layout237_list">
+                  <div class="layout237_item">
+                    <div class="margin-bottom margin-small">
+                      <div class="layout237_item-icon-wrapper"><img loading="lazy" src="{{asset "images/urban-planning.svg"}}" alt="" class="icon-1x1-medium"></div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h3 class="heading-style-h4">
+                        <a href="#">{{t "Urban Planning & Management"}}</a>
+                      </h3>
+                    </div>
+                    <p>
+                      <a href="#">{{t "TwinVerse Digital’s Digital Twin Cities provides real-time, interactive models of cities, allowing urban planners to visualise and simulate infrastructure changes, optimise resource allocation, and manage urban growth sustainably."}}</a>
+                    </p>
+                  </div>
+                  <div class="layout237_item">
+                    <div class="margin-bottom margin-small">
+                      <div class="layout237_item-icon-wrapper"><img loading="lazy" src="{{asset "images/education.svg"}}" alt="" class="icon-1x1-medium"></div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h3 class="heading-style-h4">
+                        <a href="#">{{t "Education"}}</a>
+                      </h3>
+                    </div>
+                    <p>
+                      <a href="#">{{t "Digital Twin Cities can transform education by creating immersive learning environments where students can explore real-world urban systems, historical city changes, and environmental impacts."}}</a>
+                    </p>
+                  </div>
+                  <div class="layout237_item">
+                    <div class="margin-bottom margin-small">
+                      <div class="layout237_item-icon-wrapper"><img loading="lazy" src="{{asset "images/film.svg"}}" alt="" class="icon-1x1-medium"></div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h3 class="heading-style-h4">
+                        <a href="#">{{t "Film & Television"}}</a>
+                      </h3>
+                    </div>
+                    <p>
+                      <a href="#">{{t "In film and television production, digital twin environments can be used to create realistic virtual sets, allowing filmmakers to simulate real-world urban environments and adjust them dynamically during the production process."}}</a>
+                    </p>
+                  </div>
+                  <div class="layout237_item">
+                    <div class="margin-bottom margin-small">
+                      <div class="layout237_item-icon-wrapper"><img loading="lazy" src="{{asset "images/tourism.svg"}}" alt="" class="icon-1x1-medium"></div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h3 class="heading-style-h4">
+                        <a href="#">{{t "Tourism"}}</a>
+                      </h3>
+                    </div>
+                    <p>
+                      <a href="#">{{t "Digital Twin Cities enhance tourism by allowing potential visitors to explore cities virtually, previewing major landmarks, streets, and attractions in detail before their visit."}}</a>
+                    </p>
+                  </div>
+                  <div class="layout237_item">
+                    <div class="margin-bottom margin-small">
+                      <div class="layout237_item-icon-wrapper"><img loading="lazy" src="{{asset "images/tourism.svg"}}" alt="" class="icon-1x1-medium"></div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h3 class="heading-style-h4">
+                        <a href="#">{{t "Music & Live Entertainment"}}</a>
+                      </h3>
+                    </div>
+                    <p>
+                      <a href="#">{{t "For music and live entertainment, Digital Twin Cities can simulate large-scale event spaces, helping organisers plan concerts, manage crowd flow, and optimise sound and lighting setups virtually."}}</a>
+                    </p>
+                  </div>
+                  <div class="layout237_item">
+                    <div class="margin-bottom margin-small">
+                      <div class="layout237_item-icon-wrapper"><img loading="lazy" src="{{asset "images/real-estate.svg"}}" alt="" class="icon-1x1-medium"></div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h3 class="heading-style-h4">
+                        <a href="#">{{t "Real Estate"}}</a>
+                      </h3>
+                    </div>
+                    <p>
+                      <a href="#">{{t "Digital Twin Cities can revolutionise real estate marketing and management by providing virtual property tours, allowing potential buyers to explore entire neighbourhoods in a detailed, interactive way."}}</a>
+                    </p>
+                  </div>
+                  <div class="layout237_item">
+                    <div class="margin-bottom margin-small">
+                      <div class="layout237_item-icon-wrapper"><img loading="lazy" src="{{asset "images/law-order.svg"}}" alt="" class="icon-1x1-medium"></div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h3 class="heading-style-h4">
+                        <a href="#">{{t "Law & Order"}}</a>
+                      </h3>
+                    </div>
+                    <p>
+                      <a href="#">{{t "Law enforcement agencies can use digital twin technology for crime scene reconstruction, urban surveillance, and real-time tracking of urban events to improve public safety."}}</a>
+                    </p>
+                  </div>
+                  <div class="layout237_item">
+                    <div class="margin-bottom margin-small">
+                      <div class="layout237_item-icon-wrapper"><img loading="lazy" src="{{asset "images/conference-trade.svg"}}" alt="" class="icon-1x1-medium"></div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h3 class="heading-style-h4">
+                        <a href="#">{{t "Conference & Trade Shows"}}</a>
+                      </h3>
+                    </div>
+                    <p>
+                      <a href="#">{{t "In the conference and trade show industry, digital twin technology allows event organisers to plan, simulate, and host virtual or hybrid events in highly detailed replicas of real-world urban environments."}}</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout505 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout505_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Digital Twin Cities"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h3">{{t "Key Benefits"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Digital twin cities offer a multitude of benefits that enhance urban management, sustainability, public safety, and citizen engagement. By leveraging real-time data and advanced simulations, TwinVerse Digital can provide cities with powerful tools to create smarter, more responsive, and resilient urban environments."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div data-duration-in="400" data-duration-out="200" data-current="Tab 1" data-easing="ease" class="layout505_tabs w-tabs">
+                  <div id="w-node-_26e623f1-4613-52af-bc92-b5a2b8919ce9-caa6d220" class="layout505_tabs-menu w-tab-menu">
+                    <a data-w-tab="Tab 1" class="layout505_tab-link w-inline-block w-tab-link w--current">
+                      <h3 class="heading-style-h5">{{t "Urban Planning"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 2" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Predictive Maintenance"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 3" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Environmental Monitoring"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 4" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Real-Time Data"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 5" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Traffic & Transport"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 6" class="layout505_tab-link tab-last w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Economic Development"}}</h3>
+                    </a>
+                  </div>
+                  <div class="layout505_tabs-content w-tab-content">
+                    <div data-w-tab="Tab 1" class="layout505_tab-pane w-tab-pane w--tab-active">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="{{asset "images/ruler-solid.svg"}}" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Urban Planning & Development"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "By simulating different urban development scenarios, digital twin cities allow planners to visualise the impact of new buildings, roads, and other infrastructure projects before they are built."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 2" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="{{asset "images/screwdriver-wrench-solid.svg"}}" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Predictive Maintenance & Asset Management"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Digital twins enable predictive maintenance by continuously monitoring the condition of city infrastructure such as bridges, roads, and utility networks."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 3" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="{{asset "images/leaf-solid.svg"}}" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Environmental Monitoring & Sustainability"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "By integrating environmental data such as air quality, water levels, and energy consumption, digital twin cities help in monitoring and managing environmental impact."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 4" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="{{asset "images/database-solid.svg"}}" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">{{t "Real-Time Data Integration"}}</h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Digital twin cities utilise real-time data from various sources such as IoT sensors, traffic cameras, and weather stations to create a live, dynamic representation of the city."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 5" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="{{asset "images/traffic-light-solid.svg"}}" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Traffic & Transport Optimisation"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Digital twins provide real-time analysis of traffic patterns, public transportation usage, and pedestrian movement."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 6" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="{{asset "images/piggy-bank-solid.svg"}}" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Economic Development & Innovation"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "By providing a comprehensive and detailed view of the city’s infrastructure and services, digital twin cities attract businesses, investors, and innovators looking for data-driven environments to test and deploy new technologies."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout410 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="margin-bottom margin-xxlarge">
+                <div class="text-align-center">
+                  <div class="max-width-large align-center">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-style-tagline">{{t "Digital Twin Cities"}}</div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h2">{{t "How do Digital Twin Cities work?"}}</h2>
+                    </div>
+                    <p class="text-size-medium">{{t "Explore the innovative technology behind Digital Twin Cities, where real-time data, advanced simulations, and interactive 3D models come together to create a seamless digital representation of urban environments."}}</p>
+                  </div>
+                </div>
+              </div>
+              <div class="w-layout-grid layout410_component">
+                <div class="layout410_card card-1">
+                  <div id="w-node-_7d2e9036-a1bc-2fed-d19c-53748d6e6f0f-caa6d220" class="layout410_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/dtc-data-collection-p-500.jpg"}} 500w, {{asset "images/dtc-data-collection-p-800.jpg"}} 800w, {{asset "images/dtc-data-collection.jpg"}} 1024w" alt="" src="{{asset "images/dtc-data-collection.jpg"}}" loading="lazy" class="layout410_image"></div>
+                  <div class="layout410_card-content">
+                    <div class="layout410_card-content-top">
+                      <div class="margin-bottom margin-xxsmall">
+                        <div class="text-style-tagline">{{t "Step 1 - Data"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h3">{{t "Data Collection & Integration"}}</h3>
+                      </div>
+                      <p class="text-size-small-4"><strong>{{t "Process:"}}</strong>{{t " The foundation of the Digital Twin City starts with collecting data from various sources, such as IoT sensors, GIS (Geographic Information Systems), satellite imagery, traffic monitoring systems, environmental sensors, and city infrastructure databases."}}<br>{{t "‍"}}<strong>{{t "Mechanics:"}}</strong>{{t " Real-time data from these sources is continuously fed into the digital twin model, allowing the virtual city to mirror its physical counterpart with high accuracy. Data points include traffic flow, air quality, energy usage, population density, and public services."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="layout410_card card-2">
+                  <div class="layout410_card-content">
+                    <div class="layout410_card-content-top">
+                      <div class="margin-bottom margin-xxsmall">
+                        <div class="text-style-tagline">{{t "Step 2 - Modelling"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h3">{{t "3D Modelling and Visualisation"}}</h3>
+                      </div>
+                      <p class="text-size-small-4"><strong>{{t "Process:"}}</strong>{{t " Using the collected data, a highly detailed 3D model of the city is created, which includes buildings, roads, parks, utilities, and other critical infrastructure."}}<br>{{t "‍"}}<strong>{{t "Mechanics:"}}</strong>{{t " This 3D model is visualised using advanced technologies like Unreal Engine, ensuring that the city is accurately represented in a visually immersive format. Users can interact with the digital twin through an intuitive interface, exploring the city in real-time and examining specific areas or systems in detail."}}</p>
+                    </div>
+                  </div>
+                  <div class="layout410_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/dtc-3d-modelling-p-500.jpg"}} 500w, {{asset "images/dtc-3d-modelling-p-800.jpg"}} 800w, {{asset "images/dtc-3d-modelling.jpg"}} 1024w" alt="" src="{{asset "images/dtc-3d-modelling.jpg"}}" loading="lazy" class="layout410_image"></div>
+                </div>
+                <div class="layout410_card card-3">
+                  <div id="w-node-_7d2e9036-a1bc-2fed-d19c-53748d6e6f37-caa6d220" class="layout410_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/dtc-simulation-p-500.jpg"}} 500w, {{asset "images/dtc-simulation-p-800.jpg"}} 800w, {{asset "images/dtc-simulation.jpg"}} 1024w" alt="" src="{{asset "images/dtc-simulation.jpg"}}" loading="lazy" class="layout410_image"></div>
+                  <div class="layout410_card-content">
+                    <div class="layout410_card-content-top">
+                      <div class="margin-bottom margin-xxsmall">
+                        <div class="text-style-tagline">{{t "Step 3 - Simulation"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h3">{{t "Simulation and Scenario Testing"}}</h3>
+                      </div>
+                      <p class="text-size-small-4"><strong>{{t "Process:"}}</strong>{{t " With the city model in place, various simulations and scenario testing can be run to explore how changes to infrastructure, traffic flow, or environmental factors would impact the city."}}<br>{{t "‍"}}<strong>{{t "Mechanics:"}}</strong>{{t " Planners and decision-makers can test scenarios such as new transport routes, building developments, or changes in energy consumption. The digital twin can predict outcomes by running simulations and using AI to suggest optimisations, helping cities plan more efficiently and sustainably."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="layout410_card card-4">
+                  <div class="layout410_card-content">
+                    <div class="layout410_card-content-top">
+                      <div class="margin-bottom margin-xxsmall">
+                        <div class="text-style-tagline">{{t "Step 4 - Monitoring"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h3">{{t "Real-Time Monitoring "}}</h3>
+                      </div>
+                      <p class="text-size-small-4"><strong>{{t "Process:"}}</strong>{{t " The digital twin operates in real-time, continuously updating its model based on live data. City officials and stakeholders can monitor the status of infrastructure, traffic, and environmental conditions, helping with immediate decision-making."}}<br>{{t "‍"}}<strong>{{t "Mechanics:"}}</strong>{{t " The digital twin dashboard provides live insights, alerts, and predictive analytics. It assists in monitoring city resources, detecting issues such as traffic congestion or energy shortages, and offering actionable recommendations to optimize city management."}}</p>
+                    </div>
+                  </div>
+                  <div class="layout410_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/dtc-monitoring-p-500.jpg"}} 500w, {{asset "images/dtc-monitoring-p-800.jpg"}} 800w, {{asset "images/dtc-monitoring.jpg"}} 1024w" alt="" src="{{asset "images/dtc-monitoring.jpg"}}" loading="lazy" class="layout410_image"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_digital-twin-cities_faq color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_faq_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "FAQs"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Find answers to your most pressing questions about Digital Twin Cities."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid digital-twin-cities_faq_content">
+                  <div class="w-layout-grid digital-twin-cities_faq_list">
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81ee3" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "What is a Digital Twin City, and how does it work?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "A Digital Twin City is a real-time virtual model of a city that mirrors its physical counterpart. Using data from various sources like sensors, traffic systems, and infrastructure, it provides insights into urban dynamics, allowing cities to simulate and optimise planning, resource management, and services."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81eed" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "What are the key benefits of using Digital Twin Cities for urban planning?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Digital Twin Cities allow for smarter urban planning by simulating infrastructure projects, optimising traffic flow, improving resource management, enhancing citizen engagement, and offering real-time data for informed decision-making."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81ef7" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can Digital Twin Cities help in reducing operational costs?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "By providing accurate simulations of infrastructure changes, energy consumption, and traffic flow, Digital Twin Cities allow cities to forecast and mitigate costly disruptions. This predictive capability optimises resource usage, maintenance schedules, and service delivery, reducing operational costs over time."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81f01" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How does real-time data collection and integration work in Digital Twin Cities?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Data from sensors, IoT devices, satellites, and other sources are continuously gathered and integrated into the digital twin. This provides a live, up-to-date representation of the city, enabling real-time monitoring and adjustments for things like traffic flow, environmental conditions, and infrastructure performance."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81f0b" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can Digital Twin Cities simulate future urban developments?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Yes, one of the key features of Digital Twin Cities is their ability to simulate and test future urban developments. This includes new infrastructure, changes in traffic systems, environmental impacts, and energy consumption. These simulations allow planners to evaluate potential outcomes before implementation."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-layout-grid digital-twin-cities_faq_list">
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81f16" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How does Digital Twin Cities improve citizen engagement?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Digital Twin Cities can offer interactive platforms where citizens can visualise city plans, provide feedback, and explore development projects in real-time. This transparency fosters better communication between the city administration and residents, leading to more inclusive urban planning."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81f20" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How secure is the data used in Digital Twin Cities?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital ensures data security through advanced encryption and secure data management protocols. All data collected and used within the Digital Twin City is protected, ensuring that sensitive information about infrastructure, utilities, and citizens is kept safe."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81f2a" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can Digital Twin Cities be applied to smaller towns or rural areas?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Absolutely. While Digital Twin Cities are typically associated with large urban areas, they can also be applied to smaller towns and rural regions. The system is scalable and adaptable, allowing smaller communities to benefit from real-time insights and simulations for their local infrastructure."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81f34" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How long does it take to implement a Digital Twin City?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "The timeline for implementing a Digital Twin City depends on the complexity of the urban environment and the level of integration required. On average, it may take several months to a year to set up the digital infrastructure, gather data, and fully implement the system"}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="0708e23a-5e59-0209-8454-8cf928e81f3e" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can businesses and industries benefit from Digital Twin Cities?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Businesses and industries can use Digital Twin Cities to optimise operations, such as logistics planning, energy consumption monitoring, and infrastructure management. For example, real estate developers can use it to visualise potential developments, while logistics companies can optimise delivery routes through traffic simulations."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> "footer"}}
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=689f3928b5dee013c4afd942" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="{{asset "js/webflow.js"}}" type="text/javascript"></script>
+
+<div data-api-key="{{@custom.content_api_key}}" id="content-api-key" style="display: none;"></div><script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script>

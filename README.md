@@ -1,2 +1,0 @@
-# triplep-website
-Website Theme

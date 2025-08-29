@@ -1,0 +1,935 @@
+{{!< default}}
+
+{{#contentFor "wf-page"}}68a0cac1c99ec56a47b03047{{/contentFor}}
+{{#contentFor "wf-site"}}689f3928b5dee013c4afd942{{/contentFor}}
+{{#contentFor "wf-classes"}}{{/contentFor}}
+{{#contentFor "wf-head"}}<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1" name="viewport">
+<link href="{{asset "css/normalize.css"}}" rel="stylesheet" type="text/css">
+<link href="{{asset "css/webflow.css"}}" rel="stylesheet" type="text/css">
+<link href="{{asset "css/triplepdigital.webflow.css"}}" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com" rel="preconnect">
+<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+<script type="text/javascript">WebFont.load({
+google: {
+families: ["Exo 2:regular,600,700,800,900","Poppins:300,regular,600,700,800"]
+}});</script>
+<script type="text/javascript">!function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);</script>
+{{#unless @site.icon}}<link href="{{asset "images/favicon.png"}}" rel="shortcut icon" type="image/x-icon">{{/unless}}
+{{#unless @site.icon}}<link href="{{asset "images/webclip.png"}}" rel="apple-touch-icon">{{/unless}}<!--
+Keep this css code to improve the font quality -->
+<style>
+* {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+-o-font-smoothing: antialiased;
+}
+</style>{{/contentFor}}
+
+  <div class="page-wrapper">
+    {{> "global-styles"}}
+    {{> "navbar"}}
+    <main class="main-wrapper">
+      <header class="section_header30 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="header30_content">
+              <div class="padding-section-large">
+                <div class="text-align-center">
+                  <div class="max-width-large align-center">
+                    <div class="margin-bottom margin-small">
+                      <h1 class="heading-style-h1 text-color-primary">{{t "Reimagine Real Estate with Virtual Precision"}}</h1>
+                    </div>
+                    <p class="text-size-medium text-color-primary">{{t "Delivering cutting-edge virtual property experiences that captivate clients, enhance marketing strategies, and streamline sales processes, setting a new standard in real estate visualisation and interaction."}}</p>
+                    <div class="margin-top margin-medium">
+                      <div class="button-group is-center">
+                        <a href="#" class="button-4 is-alternate w-button">{{t "Contact Us"}}</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header30_background-image-wrapper">
+          <div class="image-overlay-layer"></div><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-estate-p-500.jpg"}} 500w, {{asset "images/real-estate-p-800.jpg"}} 800w, {{asset "images/real-estate.jpg"}} 1024w" alt="" src="{{asset "images/real-estate.jpg"}}" loading="eager" class="header30_background-image">
+        </div>
+      </header>
+      <section class="section_digital-twin-cities_features color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_features_component">
+                <div class="w-layout-grid digital-twin-cities_features_content">
+                  <div class="digital-twin-cities_features_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-estate-introduction-p-500.webp"}} 500w, {{asset "images/real-estate-introduction-p-800.webp"}} 800w, {{asset "images/real-estate-introduction.webp"}} 1024w" alt="" src="{{asset "images/real-estate-introduction.webp"}}" loading="lazy" class="digital-twin-cities_features_image"></div>
+                  <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed45833-47b03047" class="digital-twin-cities_features_content-right">
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h3">{{t "Real Estate"}}</h2>
+                    </div>
+                    <div class="margin-bottom">
+                      <p class="text-size-medium">{{t "Real Estate with TwinVerse Digital transforms how properties are designed, marketed, and managed through the power of "}}<strong>{{t "Digital Twin Cities"}}</strong>{{t " and "}}<strong>{{t "Immersive Metaverses"}}</strong>{{t ". By creating highly detailed 3D models and virtual environments, developers, agents, and investors can visualize projects, conduct virtual tours, and assess designs in real-time. TwinVerse Digital’s solutions empower stakeholders with interactive tools and data-driven insights, revolutionizing the property lifecycle from planning to purchase."}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_digital-twin-cities_features-list color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_features-list_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Real Estate"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "Challenges Facing Real Estate Today"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "\"Explore the key challenges transforming the real estate industry today, from inefficient property visualisation to limited market insights, and learn how innovative solutions are reshaping the future of real estate."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid digital-twin-cities_features-list_grid-list">
+                  <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed45851-47b03047" class="w-layout-grid digital-twin-cities_features-list_row">
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed45853-47b03047" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-est-challenge-1-p-500.webp"}} 500w, {{asset "images/real-est-challenge-1-p-800.webp"}} 800w, {{asset "images/real-est-challenge-1.webp"}} 1024w" alt="" src="{{asset "images/real-est-challenge-1.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Limited Accessibility and Inclusivity in Property Viewings"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Potential buyers and renters often face barriers to viewing properties, including geographic limitations, physical disabilities, and time constraints. Traditional property viewings require physical presence, which can be inconvenient and inaccessible for many individuals."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed4585e-47b03047" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-est-challenge-2-p-500.webp"}} 500w, {{asset "images/real-est-challenge-2-p-800.webp"}} 800w, {{asset "images/real-est-challenge-2.webp"}} 1024w" alt="" src="{{asset "images/real-est-challenge-2.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "High Costs of Property Marketing"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Traditional property marketing methods, such as physical staging, professional photography, and print advertising, can be expensive and time-consuming. These costs can be prohibitive, especially for smaller real estate agencies and individual property owners."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed45868-47b03047" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-est-challenge-3-p-500.webp"}} 500w, {{asset "images/real-est-challenge-3-p-800.webp"}} 800w, {{asset "images/real-est-challenge-3.webp"}} 1024w" alt="" src="{{asset "images/real-est-challenge-3.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Inefficient Property Management"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Property management involves numerous tasks, such as maintenance scheduling, tenant communication, and financial management. Traditional methods can be inefficient and prone to errors, leading to dissatisfaction among tenants and property owners."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed45872-47b03047" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-est-challenge-4-p-500.webp"}} 500w, {{asset "images/real-est-challenge-4-p-800.webp"}} 800w, {{asset "images/real-est-challenge-4.webp"}} 1024w" alt="" src="{{asset "images/real-est-challenge-4.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Difficulty in Visualising Pre-Construction Projects"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Potential buyers and investors often struggle to visualise properties that are still under construction or in the planning stages. Traditional blueprints and 2D renderings do not provide a comprehensive view of the final product."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed4587d-47b03047" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-est-challenge-5-p-500.webp"}} 500w, {{asset "images/real-est-challenge-5-p-800.webp"}} 800w, {{asset "images/real-est-challenge-5.webp"}} 1024w" alt="" src="{{asset "images/real-est-challenge-5.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Challenges in Customisation and Personalisation"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "Homebuyers and renters increasingly seek properties that can be customised to their preferences. Traditional methods of property customisation are often limited and do not provide a clear visualisation of potential changes."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_features-list_card">
+                      <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed45888-47b03047" class="digital-twin-cities_features-list_card-image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/real-est-challenge-6-p-500.webp"}} 500w, {{asset "images/real-est-challenge-6-p-800.webp"}} 800w, {{asset "images/real-est-challenge-6.webp"}} 1024w" alt="" src="{{asset "images/real-est-challenge-6.webp"}}" loading="lazy" class="digital-twin-cities_features-list_card-image"></div>
+                      <div class="digital-twin-cities_features-list_card-content">
+                        <div class="digital-twin-cities_features-list_card-content-top">
+                          <div class="margin-bottom margin-xsmall">
+                            <h3 class="heading-style-h5">{{t "Environmental and Sustainability Concerns"}}</h3>
+                          </div>
+                          <p class="text-size-tiny">{{t "The real estate industry is under increasing pressure to adopt sustainable practices and minimise its environmental footprint. Traditional property development and management practices often fail to adequately address sustainability issues."}}</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout253 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout253_component">
+                <div class="w-layout-grid layout253_content">
+                  <div class="layout253_content-left">
+                    <div class="margin-bottom margin-xsmall">
+                      <div class="text-style-tagline">{{t "Real Estate"}}</div>
+                    </div>
+                    <div class="margin-bottom margin-small">
+                      <h2 class="heading-style-h2">{{t "How Twinverse Digital solves Real Estate’s Challenges"}}</h2>
+                    </div>
+                    <p class="text-size-medium">{{t "Discover how TwinVerse Digital addresses the key challenges in real estate by leveraging cutting-edge digital twin technology, immersive 3D environments, and data-driven insights to revolutionise property visualisation, management, and sustainability."}}</p>
+                  </div>
+                  <div class="w-layout-grid layout253_list">
+                    <div class="layout253_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout253_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6773d03fa2f96cd0f8c43a81_database-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Immersive Virtual Property Tours"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Create detailed and interactive 3D virtual tours of properties using advanced VR and AR technologies. These tours allow potential buyers and renters to explore homes, commercial spaces, and development projects remotely."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout253_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout253_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6775bfd1906cb8affffe49f7_chart-line-solid-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Pre-Construction Visualisation"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Develop 3D models and virtual walkthroughs of properties still under construction or in the planning stages. These visualisations can include different design options, finishes, and layouts to help clients visualise the final product."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout253_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout253_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785c48e6d85d870aba2747_bed-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Customisable Design Options"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Offer tools for clients to customise and visualise changes in real-time, such as different finishes, furnishings, and layouts. These tools can be integrated into the virtual tours and pre-construction visualisations."}}<br><br></a>
+                      </p>
+                    </div>
+                    <div class="layout253_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout253_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785c48d4b53d00b8e5602d_chart-area-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Real-Time Data Integration and Analytics"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Integrate real-time data from various sources such as market trends, property values, and neighbourhood analytics into the digital twin environment. Provide dashboards and analytics tools for agents and clients to analyse this data."}}<br></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-top margin-medium">
+                <div class="layout233_component">
+                  <div class="w-layout-grid layout233_list">
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6774407ff0340c7ec055605f_bullhorn-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Enhanced Marketing Materials"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Develop high-quality visual content, including 3D renderings, VR tours, and interactive floor plans, that can be used in marketing campaigns across various platforms, including websites, social media, and print."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785c483a5e2a9735d1509f_house-crack-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Efficient Property Management"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Create digital twins of properties for ongoing management and maintenance. These digital twins can monitor the condition of the property, schedule maintenance, and provide virtual inspections."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785cec36afc029f6808f5f_headset-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Remote Collaboration and Decision-Making"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Facilitate real-time collaboration among stakeholders, including developers, architects, real estate agents, and clients, within the virtual environment. This includes virtual meetings, shared access to property models, and collaborative design tools."}}<br></a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="margin-top margin-medium">
+                <div class="layout233_component">
+                  <div class="w-layout-grid layout233_list">
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785d7d4fb6885cd72e5daa_user-graduate-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Training and Development"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Provide virtual training programs and simulations for real estate professionals, including sales techniques, property management, and market analysis. These programs can be customised to different roles and skill levels."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6773d03fa9f25be6c4a40a8b_screwdriver-wrench-solid.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Sustainable and Smart Building Practices"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Integrate sustainability metrics and smart building technologies into the digital twin models. This includes energy efficiency simulations, environmental impact assessments, and smart home features."}}<br></a>
+                      </p>
+                    </div>
+                    <div class="layout233_item">
+                      <div class="margin-bottom margin-small">
+                        <div class="layout233_item-icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6775bfd1906cb8affffe49f7_chart-line-solid-light.svg" alt="" class="icon-1x1-medium"></div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h3 class="heading-style-h4">
+                          <a href="#">{{t "Comprehensive Site Analysis"}}</a>
+                        </h3>
+                      </div>
+                      <p>
+                        <a href="#">{{t "Develop digital twins of entire neighbourhoods or cities to provide detailed site analysis and context for properties. This includes infrastructure, amenities, environmental factors, and future development plans."}}</a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout505 color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout505_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Real Estate"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h3">{{t "Why Choose TwinVerse Digital For Real Estate"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Learn how TwinVerse Digital’s innovative solutions empower real estate professionals with advanced tools for property visualisation, customisation, and management, driving efficiency, engagement, and sustainability."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div data-duration-in="400" data-duration-out="200" data-current="Tab 1" data-easing="ease" class="layout505_tabs w-tabs">
+                  <div id="w-node-_6e07c2b2-8a68-797b-d52e-a07faed45930-47b03047" class="layout505_tabs-menu w-tab-menu">
+                    <a data-w-tab="Tab 1" class="layout505_tab-link w-inline-block w-tab-link w--current">
+                      <h3 class="heading-style-h5">{{t "Immersive Tours"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 2" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Visualisation"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 3" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Customisable design"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 4" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Marketing Materials"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 5" class="layout505_tab-link w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Detailed Site Analysis"}}</h3>
+                    </a>
+                    <a data-w-tab="Tab 6" class="layout505_tab-link tab-last w-inline-block w-tab-link">
+                      <h3 class="heading-style-h5">{{t "Economic Development"}}</h3>
+                    </a>
+                  </div>
+                  <div class="layout505_tabs-content w-tab-content">
+                    <div data-w-tab="Tab 1" class="layout505_tab-pane w-tab-pane w--tab-active">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785c48e6d85d870aba2733_house-laptop-light.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Immersive Property Tours"}}<br></a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "By simulating different urban development scenarios, digital twin cities allow planners to visualize the impact of new buildings, roads, and other infrastructure projects before they are built."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 2" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785c48be584373c351d81d_pen-ruler-light.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Pre-Construction Visualisation"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "The platform enables detailed 3D visualisations of properties before they are built. Developers can showcase planned projects to potential investors, buyers, and tenants with accurate representations of the final product."}}<br></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 3" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/67785c48e6d85d870aba2747_bed-light.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Customisable Design Options"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "TwinVerse Digital allows users to customise and visualise different design options, finishes, and layouts in real-time. Clients can see how various choices will look in the actual space."}}<br></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 4" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6774407ff0340c7ec055605f_bullhorn-solid.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Enhanced Marketing Materials"}}<br></a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "The platform generates high-quality visual content, including 3D renderings, virtual tours, and interactive floor plans, which can be used in marketing campaigns."}}<br></a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 5" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6775bfd1906cb8affffe49f7_chart-line-solid-light.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Detailed Site Analysis"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "Digital twins provide real-time analysis of traffic patterns, public transportation usage, and pedestrian movement."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div data-w-tab="Tab 6" class="layout505_tab-pane w-tab-pane">
+                      <div class="layout505_tab-content">
+                        <div class="layout505_tab-content-top">
+                          <div class="margin-bottom margin-small">
+                            <div class="layout505_icon-wrapper"><img loading="lazy" src="https://cdn.prod.website-files.com/6771578d86aa61c0b526655e/6773d03f084bb8b479bf6a09_leaf-solid.svg" alt="" class="icon-1x1-medium"></div>
+                          </div>
+                          <div class="margin-bottom margin-small">
+                            <h3 class="heading-style-h3">
+                              <a href="#">{{t "Sustainability and Environmental Planning"}}</a>
+                            </h3>
+                          </div>
+                          <p>
+                            <a href="#">{{t "By providing a comprehensive and detailed view of the city’s infrastructure and services, digital twin cities attract businesses, investors, and innovators looking for data-driven environments to test and deploy new technologies."}}</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_layout358 color-scheme-tvd">
+        <div class="padding-global background-color-secondary">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="layout358_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-xsmall">
+                        <div class="text-style-tagline">{{t "Real Estate"}}</div>
+                      </div>
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "Real Estate Use Cases"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Below are some hypothetical use cases where TwinVerse Digital’s solutions can provide benefit to the Urban Planning and Management industry."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid layout358_grid-list">
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Virtual Property Tours for Buyers and Investors"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Real estate agents face challenges in arranging physical property viewings for international buyers and investors, which can delay the sales process."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Real estate agencies use Immersive Metaverses to create virtual property tours, allowing potential buyers and investors to explore properties from anywhere in the world."}}</li>
+                            <li>{{t "These virtual tours offer 360-degree views of the property, enabling buyers to walk through homes, offices, or commercial spaces and inspect them in detail."}}</li>
+                            <li>{{t "Conversational AI Characters act as virtual real estate agents, providing real-time information about the property, neighbourhood amenities, and market trends."}}</li>
+                            <li>{{t "As a result, the agency reduces the time it takes to close deals by 20%, while increasing the number of international buyers and investors."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-1-tours-p-500.jpg"}} 500w, {{asset "images/uc-realestate-1-tours-p-800.jpg"}} 800w, {{asset "images/uc-realestate-1-tours.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-1-tours.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Digital Twin Models for Urban Development Projects"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Real estate developers often struggle to visualise how new buildings will fit into the existing urban landscape and what impact they will have on infrastructure."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Using Digital Twin Cities, developers can create real-time 3D models of the urban environment, incorporating planned developments into the cityscape to visualise their integration."}}</li>
+                            <li>{{t "Developers can simulate the impact of new residential or commercial buildings on traffic flow, public transport, and local amenities, helping them make informed decisions."}}</li>
+                            <li>{{t "These immersive simulations allow stakeholders to explore the site in a virtual environment and evaluate potential issues, such as shading from nearby buildings or views from specific floors."}}</li>
+                            <li>{{t "The use of digital twins improves decision-making and accelerates the approval process for new developments by 25%."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-2-plan-p-500.jpg"}} 500w, {{asset "images/uc-realestate-2-plan-p-800.jpg"}} 800w, {{asset "images/uc-realestate-2-plan.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-2-plan.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "VIRTUAL STAGING FOR RESIDENTIAL PROPERTIES"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Home sellers struggle to showcase their properties effectively to buyers without spending on expensive staging services."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Real estate agents use Immersive Metaverses to virtually stage homes by adding furniture, decor, and lighting to create appealing and customisable environments."}}</li>
+                            <li>{{t "Buyers can choose from various design styles and furnishings, visualising the property as it would look fully furnished, tailored to their tastes."}}</li>
+                            <li>{{t "The AI-powered system tracks buyer preferences and suggests interior design options that match their style, helping them see the potential of the space."}}</li>
+                            <li>{{t "Virtual staging reduces the need for physical furniture rentals and increases buyer interest, leading to faster sales and a 15% increase in property value."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-3-engage-p-500.jpg"}} 500w, {{asset "images/uc-realestate-3-engage-p-800.jpg"}} 800w, {{asset "images/uc-realestate-3-engage.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-3-engage.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "AI-POWERED PROPERTY VALUATION AND MARKET FORECASTING"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Real estate agencies face challenges in accurately valuing properties and predicting market trends, leading to slower sales and missed opportunities."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Agencies use AI-powered analytics within Digital Twin Cities to assess property values based on factors like neighbourhood growth, infrastructure development, and historical market trends."}}</li>
+                            <li>{{t "The system generates real-time market forecasts, helping agents and investors understand how property values are likely to change over time and informing investment decisions."}}</li>
+                            <li>{{t "The platform also provides insights into optimal times to buy or sell based on data from similar properties in the area."}}</li>
+                            <li>{{t "This data-driven approach improves property valuation accuracy by 20% and helps agents close deals faster by anticipating market movements."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-4-pricing-p-500.jpg"}} 500w, {{asset "images/uc-realestate-4-pricing-p-800.jpg"}} 800w, {{asset "images/uc-realestate-4-pricing.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-4-pricing.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Immersive Property Previews for Off-Plan Developments"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Buyers are often hesitant to invest in off-plan developments because they cannot fully visualise the finished property or how it will fit into the neighbourhood."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Developers use Immersive Metaverses to create virtual representations of off-plan properties, allowing buyers to explore future homes and commercial spaces before they are built."}}</li>
+                            <li>{{t "Buyers can walk through the property in 3D, visualise interior layouts, and experience the surrounding neighbourhood, complete with parks, schools, and local amenities."}}</li>
+                            <li>{{t "AI-powered guides provide real-time information about the property’s features, the construction timeline, and potential customisation options."}}</li>
+                            <li>{{t "This immersive preview builds buyer confidence, leading to a 25% increase in pre-construction sales."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-5-offplan-p-500.jpg"}} 500w, {{asset "images/uc-realestate-5-offplan-p-800.jpg"}} 800w, {{asset "images/uc-realestate-5-offplan.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-5-offplan.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "DIGITAL TWINS FOR PROPERTY MANAGEMENT AND MAINTENANCE"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Property managers face challenges in maintaining large residential or commercial buildings, particularly when it comes to tracking maintenance schedules and resolving issues efficiently."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Using Digital Twin Cities, property managers create digital replicas of their buildings, allowing them to monitor real-time data on HVAC systems, electrical systems, plumbing, and other critical infrastructure."}}</li>
+                            <li>{{t "AI-driven predictive maintenance tools analyse historical data and detect early signs of wear and tear, scheduling maintenance before costly failures occur."}}</li>
+                            <li>{{t "Managers can also use the immersive digital twin to simulate building modifications, such as adding solar panels or upgrading electrical systems, without disrupting daily operations."}}</li>
+                            <li>{{t "This system reduces maintenance costs by 15% and extends the lifespan of building systems, improving tenant satisfaction."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-6-maint-p-500.jpg"}} 500w, {{asset "images/uc-realestate-6-maint-p-800.jpg"}} 800w, {{asset "images/uc-realestate-6-maint.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-6-maint.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Personalised Home Design with AI Assistants"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Buyers of new homes often find it difficult to visualise potential customisations or make design decisions that suit their preferences and lifestyle."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Conversational AI Characters act as virtual design consultants, guiding buyers through various customisation options for new homes, from floor plans to fixtures and finishes."}}</li>
+                            <li>{{t "Buyers can walk through a 3D immersive representation of their future home, making real-time changes to layout, colour schemes, and furnishings."}}</li>
+                            <li>{{t "The AI assistant provides suggestions based on the buyer’s style and budget, helping them make informed decisions and ensuring they are satisfied with their new home’s design."}}</li>
+                            <li>{{t "This personalised design experience leads to a 20% increase in buyer satisfaction and helps developers differentiate their offerings in a competitive market."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-7-design-p-500.jpg"}} 500w, {{asset "images/uc-realestate-7-design-p-800.jpg"}} 800w, {{asset "images/uc-realestate-7-design.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-7-design.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Smart Cities and Sustainable Urban Development"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Real estate developers want to promote sustainable building practices and eco-friendly developments but lack the tools to accurately measure environmental impact."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Developers use Digital Twin Cities to simulate the environmental impact of new developments, such as energy consumption, carbon emissions, and water usage."}}</li>
+                            <li>{{t "The platform tracks how buildings interact with their surroundings, offering insights into the best sustainable practices, such as energy-efficient designs and renewable energy integration."}}</li>
+                            <li>{{t "AI-powered systems provide recommendations for optimising building efficiency and reducing environmental impact, helping developers meet sustainability goals."}}</li>
+                            <li>{{t "By incorporating sustainability into urban development projects, developers attract eco-conscious buyers and investors, increasing sales and earning green certifications."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-8-eco-p-500.jpg"}} 500w, {{asset "images/uc-realestate-8-eco-p-800.jpg"}} 800w, {{asset "images/uc-realestate-8-eco.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-8-eco.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "AI-Driven Tenant Screening and Leasing Automation"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Property managers struggle to efficiently screen tenants and manage leasing processes, leading to delays and potential tenant issues."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Property managers use AI-driven screening tools that analyse tenant applications, financial history, and rental records to identify the best candidates for leasing."}}</li>
+                            <li>{{t "The system automates lease agreements, rent collection, and maintenance requests, reducing the administrative burden on property managers."}}</li>
+                            <li>{{t "Conversational AI assistants handle tenant inquiries, providing real-time responses about lease terms, rent payments, and property policies."}}</li>
+                            <li>{{t "This approach streamlines tenant onboarding, reduces vacancy rates, and ensures compliance with leasing regulations, leading to a 15% improvement in leasing efficiency."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-9-screen-p-500.jpg"}} 500w, {{asset "images/uc-realestate-9-screen-p-800.jpg"}} 800w, {{asset "images/uc-realestate-9-screen.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-9-screen.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                  <div class="layout358_card">
+                    <div class="layout358_card-content">
+                      <div class="layout358_card-content-top">
+                        <div class="margin-bottom margin-xxsmall text-color-primary">
+                          <div class="tag is-text">{{t "Use Case"}}</div>
+                        </div>
+                        <div class="margin-bottom margin-small">
+                          <h3 class="heading-style-h4">{{t "Real-Time Virtual Collaboration with Stakeholders"}}<br></h3>
+                          <div class="margin-vertical margin-small">
+                            <h6 class="heading-style-h6">{{t "Problem:"}}</h6>
+                            <p class="text-size-small-4">{{t "Real estate developers and agents struggle to coordinate with multiple stakeholders, including architects, contractors, and buyers, leading to delays and miscommunications."}}</p>
+                          </div>
+                          <h6 class="heading-style-h6">{{t "TwinVerse Digital Solutions:"}}</h6>
+                          <ul role="list" class="text-size-small-4 margin-vertical margin-0">
+                            <li>{{t "Developers use Immersive Metaverses to create virtual collaboration spaces where all stakeholders can meet, review property designs, and discuss project progress in real-time."}}</li>
+                            <li>{{t "Digital Twin Cities allow architects and contractors to make real-time modifications to building designs, while buyers can walk through the property and provide feedback on customisations."}}</li>
+                            <li>{{t "AI-powered tools track project timelines, material deliveries, and construction milestones, ensuring all parties stay informed and aligned on goals."}}</li>
+                            <li>{{t "This collaborative platform reduces miscommunication, accelerates decision-making, and keeps projects on schedule, resulting in a 10% reduction in project delays."}}<br></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="layout358_image-wrapper"><img sizes="(max-width: 1024px) 100vw, 1024px" srcset="{{asset "images/uc-realestate-10-stakeh-p-500.jpg"}} 500w, {{asset "images/uc-realestate-10-stakeh-p-800.jpg"}} 800w, {{asset "images/uc-realestate-10-stakeh.jpg"}} 1024w" alt="" src="{{asset "images/uc-realestate-10-stakeh.jpg"}}" loading="lazy" class="layout358_image"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section_digital-twin-cities_faq color-scheme-tvd">
+        <div class="padding-global">
+          <div class="container-large">
+            <div class="padding-section-large">
+              <div class="digital-twin-cities_faq_component">
+                <div class="margin-bottom margin-xxlarge">
+                  <div class="text-align-center">
+                    <div class="max-width-large align-center">
+                      <div class="margin-bottom margin-small">
+                        <h2 class="heading-style-h2">{{t "FAQs"}}</h2>
+                      </div>
+                      <p class="text-size-medium">{{t "Find answers to your most pressing questions about Real Estate."}}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="w-layout-grid digital-twin-cities_faq_content">
+                  <div class="w-layout-grid digital-twin-cities_faq_list">
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45ada" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can TwinVerse Digital’s Digital Twin Cities be used in real estate development?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital’s Digital Twin Cities provide virtual replicas of real-world properties and neighbourhoods. Developers can visualise future developments, simulate construction processes, and assess the impact of new buildings on the surrounding area, helping to make data-driven decisions during planning."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45ae5" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can TwinVerse Digital’s platform assist in property management?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital enables property managers to monitor real-time data on building systems such as HVAC, water, and security. By integrating IoT sensors into a Digital Twin of the property, managers can predict maintenance needs, reduce energy usage, and optimize operations, lowering operational costs."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45af0" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How does TwinVerse Digital support virtual property tours?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital offers Immersive Metaverses where real estate agents can host virtual tours, allowing potential buyers or tenants to explore properties in 3D. These tours provide a realistic sense of space, amenities, and layout, making it easier to attract remote clients and accelerate decision-making."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45afb" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How can TwinVerse Digital assist in marketing properties?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital’s Immersive Metaverses allow real estate agencies to create interactive, virtual marketing campaigns. Potential buyers can tour virtual properties, interact with Conversational AI agents for inquiries, and explore future developments, creating a more engaging and informative buying experience."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45b06" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can TwinVerse Digital be used for smart home and smart building integration?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Yes, TwinVerse Digital can integrate smart building technologies into its Digital Twins, allowing real estate developers and managers to implement IoT-enabled devices for energy management, security, and occupant comfort. Real-time data from these systems can be monitored and optimised through the platform."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-layout-grid digital-twin-cities_faq_list">
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45b12" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can TwinVerse Digital help real estate buyers and investors visualise properties before purchase?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Yes, through Immersive Metaverses, buyers and investors can explore virtual representations of properties in 3D. They can tour residential and commercial spaces, view layouts, and see future developments in the surrounding area, all from their own devices."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45b1d" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can TwinVerse Digital help optimise space usage in commercial real estate?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Yes, by creating Digital Twins of commercial buildings, TwinVerse Digital helps real estate managers analyse how spaces are used, optimise layouts, and plan future expansions. AI-driven analytics provide insights into foot traffic, energy efficiency, and space utilisation to ensure optimal use of available resources."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45b28" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "Can TwinVerse Digital help assess environmental sustainability for real estate developments?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "Yes, TwinVerse Digital’s platform can simulate and evaluate the environmental impact of real estate projects. It helps developers incorporate sustainable design elements like green spaces, renewable energy systems, and water management, ensuring the development aligns with environmental regulations."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45b33" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How does TwinVerse Digital improve urban planning for real estate projects?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "By simulating the surrounding infrastructure, such as roads, public transport, and utilities, TwinVerse Digital’s Digital Twin Cities help developers assess the feasibility of large-scale real estate projects. This ensures that housing developments and commercial buildings are well-integrated into the city’s urban plan."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="digital-twin-cities_faq_accordion">
+                      <div data-w-id="6e07c2b2-8a68-797b-d52e-a07faed45b3e" class="digital-twin-cities_faq_question">
+                        <div class="text-size-medium text-weight-bold">{{t "How does TwinVerse Digital help reduce risks in real estate development?"}}</div>
+                        <div class="digital-twin-cities_faq_icon-wrapper">
+                          <div class="icon-embed-small w-embed"><svg width="100%" height="100%" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M25.3333 15.667V16.3336C25.3333 16.7018 25.0349 17.0003 24.6667 17.0003H17V24.667C17 25.0351 16.7015 25.3336 16.3333 25.3336H15.6667C15.2985 25.3336 15 25.0351 15 24.667V17.0003H7.3333C6.96511 17.0003 6.66663 16.7018 6.66663 16.3336V15.667C6.66663 15.2988 6.96511 15.0003 7.3333 15.0003H15V7.33365C15 6.96546 15.2985 6.66699 15.6667 6.66699H16.3333C16.7015 6.66699 17 6.96546 17 7.33365V15.0003H24.6667C25.0349 15.0003 25.3333 15.2988 25.3333 15.667Z" fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                      <div style="width:100%;height:0px" class="digital-twin-cities_faq_answer">
+                        <div class="margin-bottom margin-small">
+                          <p>{{t "TwinVerse Digital’s AI-driven analytics can simulate various risk factors, such as weather impacts, infrastructure disruptions, and market fluctuations. By visualising these scenarios in a Digital Twin environment, developers can assess potential risks and create mitigation strategies before committing to a project."}}<br></p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    {{> "footer"}}
+  </div>
+  <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=689f3928b5dee013c4afd942" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="{{asset "js/webflow.js"}}" type="text/javascript"></script>
+
+<div data-api-key="{{@custom.content_api_key}}" id="content-api-key" style="display: none;"></div><script type="module">import*as UdeslyBanner from"https://cdn.jsdelivr.net/npm/udesly-ad-banner@0.0.1/loader/index.js";UdeslyBanner.defineCustomElements(),document.body.append(document.createElement("udesly-banner"));</script>
